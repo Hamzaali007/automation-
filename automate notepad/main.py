@@ -3,7 +3,7 @@
 ##########################################################################################
 import speech_recognition as sr
 import pyttsx3
-import os
+
 
 
 
@@ -43,8 +43,7 @@ def notepad():
     filename = "jarvis-note.txt"
     with open(filename, "w") as file:
         file.write(writes)
-    path_1 = "Enter your path" +str(filename)
-    os.startfile(path_1)
+    
 
 
 if __name__=='__main__':
