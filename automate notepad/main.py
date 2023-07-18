@@ -40,7 +40,7 @@ def notepad():
     print("i am ready to make your notes")
     speak("speak up your notes")
     writes = takeCommand()
-    filename = "jarvis-note.txt"
+    filename = "Notes.txt"
     with open(filename, "w") as file:
         file.write(writes)
     
