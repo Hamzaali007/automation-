@@ -47,5 +47,4 @@ def notepad():
 
 
 if __name__=='__main__':
-    takeCommand()
     notepad()
